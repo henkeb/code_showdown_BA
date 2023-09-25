@@ -5,7 +5,7 @@ use crate::Movie;
 pub fn lös(input: &[Movie]) -> usize {
     let mut knows_tom: HashSet<&str> = HashSet::new();
 
-    knows_tom.insert("Tom Jones");
+    knows_tom.insert("Tom Hanks");
 
     let mut closure = || {
         let mut temp_set: HashSet<&str> = HashSet::new();
